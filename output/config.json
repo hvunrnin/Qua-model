@@ -1,0 +1,32 @@
+{
+  "vocab_size": 568,
+  "embedding_dim": 256,
+  "num_classes": 14,
+  "num_layers": 2,
+  "num_heads": 8,
+  "ff_dim": 1024,
+  "max_seq_length": 100,
+  "pooling": "mean",
+  "dropout": 0.1,
+  "fc_hidden_dims": [
+    512,
+    256,
+    128
+  ],
+  "effect_names": [
+    "effect_Dry",
+    "effect_Normal",
+    "effect_Oily",
+    "effect_Sensitive",
+    "effect_Dryness",
+    "effect_Elasticity",
+    "effect_Redness",
+    "effect_Dullness",
+    "effect_Oiliness",
+    "effect_Pores",
+    "effect_Wrinkles",
+    "effect_DarkSpots",
+    "effect_Acne",
+    "effect_UnevenTexture"
+  ]
+}
